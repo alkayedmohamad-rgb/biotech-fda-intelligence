@@ -1,0 +1,2 @@
+ticker,drug,event_type,event_date,date_status,source_url,notes
+EXAMPLE,Drug name,PDUFA,2026-12-15,estimated,https://www.fda.gov/,Replace with verified company/FDA source
