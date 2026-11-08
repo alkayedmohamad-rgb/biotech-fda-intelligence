@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
-from .data_sources import fetch_yfinance
-
+from data_sources import fetch_yfinance
 def _safe_float(x):
     try:
         return float(x)
