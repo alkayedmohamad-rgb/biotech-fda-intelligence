@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
 from datetime import date, timedelta
-from src.scanner import run_scan
-from src.storage import load_watchlist, save_watchlist, load_catalysts
-from src.data_sources import fetch_fda_approvals, fetch_clinical_trials
-
+from scanner import run_scan
+from storage import load_watchlist, save_watchlist, load_catalysts
+from data_sources import fetch_fda_approvals, fetch_clinical_trials
 st.set_page_config(page_title="Biotech FDA Catalyst Intelligence", page_icon="🧬", layout="wide")
 st.title("Biotech FDA Catalyst Intelligence")
 st.caption("نسخة MVP مجانية — أداة بحث ومراقبة وليست توصية استثمارية.")
